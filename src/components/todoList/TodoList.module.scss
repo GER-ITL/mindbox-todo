@@ -1,0 +1,43 @@
+.list {
+	min-width: 500px;
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			font-weight: 200;
+			font-size: 20px;
+			text-align: start;
+			list-style-type: none;
+			border: 1px solid white;
+			color: white;
+			padding: 10px 20px;
+			border-bottom: none;
+			&:last-child {
+				border-bottom: 1px solid white;
+			}
+		}
+	}
+}
+.side_bar {
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid white;
+	color: white;
+	span {
+		font-weight: 300;
+		cursor: pointer;
+		margin-right: 5px;
+	}
+}
+.completed {
+	color: #737171 !important;
+	text-decoration: line-through;
+}
+
+.active {
+	padding: 3px;
+	color: rgb(105, 105, 246);
+	border-radius: 6px;
+	border: 1px solid rgb(105, 105, 246);
+}
